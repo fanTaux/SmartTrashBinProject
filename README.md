@@ -1,7 +1,7 @@
-# IoT-Based Flood Early Warning System Using Thinger.io for Real-Time Data Visualization
+# Smart Trashbin with Metal Detector and Range Sensor
 
 <p align="center">
-  <img src="https://github.com/fanTaux/FloodEarlyWarningSystemProject/blob/7a1f3aef27163857cf8e27b2f33572f83b86d7f0/assets/AlatEWS.jpg" alt="EWS Project Banner" width="300">
+  <img src="assets/Skematik.jpeg" alt="Trashbin Project Banner" width="300">
 </p>
 
 ## Project Domain
