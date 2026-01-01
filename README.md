@@ -22,20 +22,22 @@
 
 
 ### Problem Statements
-1. Traditional flood monitoring relies on manual visual checks, which are ineffective and dangerous during heavy rain, extreme weather, or at night.
-2. There is a critical lack of real-time information regarding sudden water level rises in upstream areas, often resulting in downstream residents being unaware of incoming floods until it is too late.
-3. As a tropical country with high rainfall, Indonesia (particularly regions like Sumatra) faces frequent hydrometeorological disasters that cause significant material loss and fatalities due to delayed evacuation.
+1. Traditional waste management relies heavily on manual sorting, which is labor-intensive and time-consuming.
+2. The inability to effectively separate metal from non-metal waste at the source complicates the recycling process and contributes to environmental pollution of soil, water, and air.
+3. Without real-time monitoring, waste bins often overflow before being emptied, leading to unhygienic conditions and inefficient collection schedules.
+4. There is a lack of immediate feedback or awareness for the public regarding the type of waste they are disposing of, which hinders long-term sustainability efforts.
    
 ### Goals
-1. Establish a real-time and remote data transmission mechanism from flood-prone locations to a centralized monitoring system to overcome visual limitations.
-2. Achieve high accuracy and low latency in detecting water level increases and delivering emergency notifications to the community.
-3. Implement a tiered warning system (Waspada, Siaga, Awas) to provide clear urgency levels for community response and evacuation.
+1. Develop a microcontroller-based system that can accurately detect and separate metal waste from non-metal waste automatically.
+2. Implement a precise measurement system to track bin fullness and provide immediate visual status updates.
+3. Provide clear audible and visual notifications to users and waste collectors when the bin reaches its maximum capacity.
+4. Bridge the information gap in waste disposal by ensuring materials are sorted correctly at the point of entry to support broader recycling initiatives.
 
 ### Solution Statements
-1. Use an ESP32 microcontroller as the primary processing unit to handle multi-sensor data and Wi-Fi connectivity.
-2. Incorporate an HC-SR04 ultrasonic sensor for precise water level measurement, a DHT-11 sensor for ambient temperature and humidity, and a rain sensor to detect precipitation.
-3. Utilize the MQTT (Message Queuing Telemetry Transport) protocol for efficient data transmission to Thinger.io, providing a real-time web-based dashboard for remote monitoring.
-4. Integrate a Telegram Bot API for immediate smartphone notifications and a physical buzzer for local audible alarms when water levels reach dangerous thresholds.
+1. Utilize an Arduino Uno R3 as the primary processing unit to coordinate data from multiple sensors and manage actuator responses.
+2. Incorporate an HC-SR04 ultrasonic sensor for precise capacity monitoring and an SN04 proximity sensor to identify metal objects through electromagnetic induction.
+3. Employ an SG90 micro servo for automated lid control and an I2C LCD 16x2 to provide real-time visual feedback on bin status and waste types.
+4. Integrate a physical buzzer to provide recurring audible alarms as a local notification when the waste capacity reaches 100%
 
 ---
 
