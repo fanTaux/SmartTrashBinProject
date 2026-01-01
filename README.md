@@ -5,7 +5,7 @@
 </p>
 
 ## Project Domain
- <div align="justify"> This project presents an Internet of Things (IoT) solution designed for disaster mitigation, specifically focusing on a Flood Early Warning System (EWS). It features real-time monitoring of river water levels, rainfall intensity, and environmental conditions (temperature and humidity) to bridge the information gap between upstream conditions and downstream residential areas. The system integrates digital notifications via Telegram and visual data tracking through the Thinger.io cloud platform to ensure residents can evacuate timely during extreme weather or nighttime. </div>
+ <div align="justify"> This project presents a microcontroller-based solution designed for smart waste management in the Industry 5.0 era. It addresses the challenges of manual waste sorting, which is often time-consuming and results in low recycling rates. The system features an automated sorting mechanism that distinguishes metal from non-metal waste using electromagnetic induction. It also bridges the gap in waste monitoring by providing real-time bin capacity updates and automated notifications when the bin is full. By integrating sensors and actuators, this system ensures efficient waste segregation to support environmental sustainability. </div>
 
 
 ## Table Of Contents
