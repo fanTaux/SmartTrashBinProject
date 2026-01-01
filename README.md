@@ -5,7 +5,8 @@
 </p>
 
 ## Project Domain
-This project presents an Internet of Things (IoT) solution designed for disaster mitigation, specifically focusing on a Flood Early Warning System (EWS). It features real-time monitoring of river water levels, rainfall intensity, and environmental conditions (temperature and humidity) to bridge the information gap between upstream conditions and downstream residential areas. The system integrates digital notifications via Telegram and visual data tracking through the Thinger.io cloud platform to ensure residents can evacuate timely during extreme weather or nighttime.
+ <div align="justify"> This project presents an Internet of Things (IoT) solution designed for disaster mitigation, specifically focusing on a Flood Early Warning System (EWS). It features real-time monitoring of river water levels, rainfall intensity, and environmental conditions (temperature and humidity) to bridge the information gap between upstream conditions and downstream residential areas. The system integrates digital notifications via Telegram and visual data tracking through the Thinger.io cloud platform to ensure residents can evacuate timely during extreme weather or nighttime. </div>
+
 
 ## Table Of Contents
 - [Background](#background)
