@@ -90,6 +90,7 @@
 <div align="justify"> The Smart Trash Bin project successfully demonstrates a microcontroller-based solution for automated waste management by integrating sensor technology with real-time feedback mechanisms. By utilizing an Arduino Uno to coordinate data from an HC-SR04 ultrasonic sensor and an SN04 proximity sensor, the system effectively automates the segregation of metal and non-metal waste while continuously monitoring bin capacity. The implementation of an automated servo-driven lid and a tiered alert system—featuring an I2C LCD and a physical buzzer—ensures timely disposal and prevents overflow by notifying users when the bin reaches 100% capacity. Ultimately, this project offers a scalable and efficient alternative to manual sorting, significantly improving recycling accuracy and supporting long-term environmental sustainability. </div>
 
 ## Team
-1. fanTaux (https://github.com/fanTaux)
-2. cayo-py (https://github.com/cayo-py)
+1. Balevvvvy (https://github.com/Balevvvvy)
+2. fanTaux (https://github.com/fanTaux)
 3. RisangDananJoyo (https://github.com/RisangDananJoyo)
+4. TaqiyudinMiftah (https://github.com/TaqiyudinMiftah)
